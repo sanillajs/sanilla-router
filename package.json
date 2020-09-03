@@ -1,6 +1,6 @@
 {
 	"name": "@sanillajs/sanilla-router",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "sanilla",
 	"main": "dist/main.js",
 	"license": "MIT",
