@@ -2,15 +2,26 @@
 	"name": "@sanillajs/sanilla-router",
 	"version": "1.0.0",
 	"author": "sanilla",
+	"main": "dist/main.js",
 	"license": "MIT",
 	"scripts": {
 		"dev": "nodemon --watch src --watch package.json --watch webpack.config.js --watch tsconfig.js --delay 1 --exec 'npm run lint && ts-node' src/index.ts",
 		"lint": "tslint -p .",
 		"build": "webpack --config webpack.config.js"
 	},
-	"keywords": [ "spa", "sanilla", "javascript", "js", "html", "framework", "single page application", "router", "history" ],
+	"keywords": [
+		"spa",
+		"sanilla",
+		"javascript",
+		"js",
+		"html",
+		"framework",
+		"single page application",
+		"router",
+		"history"
+	],
 	"devDependencies": {
-		"@sanillajs/sanilla": "^1.0.1",
+		"@sanillajs/sanilla": "^1.0.3",
 		"@types/node": "^14.0.13",
 		"nodemon": "^2.0.4",
 		"ts-loader": "^7.0.5",
