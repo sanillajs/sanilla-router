@@ -17,7 +17,7 @@ yarn add -D @sanillajs/sanilla-router
 
 ## How to use
 
-```sh
+```js
 import Sanilla from '@sanillajs/sanilla';
 import SanillaRouter from '@sanillajs/sanilla-router';
 
