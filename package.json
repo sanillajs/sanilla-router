@@ -2,12 +2,12 @@
 	"name": "@sanillajs/sanilla-router",
 	"version": "1.0.1",
 	"author": "sanilla",
-	"main": "dist/main.js",
+	"main": "dist/index.js",
 	"license": "MIT",
 	"scripts": {
 		"dev": "nodemon --watch src --watch package.json --watch webpack.config.js --watch tsconfig.js --delay 1 --exec 'npm run lint && ts-node' src/index.ts",
 		"lint": "tslint -p .",
-		"build": "webpack --config webpack.config.js"
+		"build": "tsc -p tsconfig.json"
 	},
 	"keywords": [
 		"spa",
