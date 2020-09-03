@@ -2,7 +2,7 @@
 
 HTML5 history api router for [Sanilla](https://github.com/sanillajs/sanilla)
 
-![enter image description here](https://github.com/sanillajs/sanilla-router/spa.gif)
+![enter image description here](https://raw.githubusercontent.com/sanillajs/sanilla-router/master/spa.gif)
 
 ## Install
 npm
